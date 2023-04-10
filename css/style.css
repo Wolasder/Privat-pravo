@@ -191,6 +191,14 @@ a button {
 .block2_text li {
 	padding-top: 15px;
 }
+.block2_text button {
+	background-color: #41C13D;
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 5px 10px 10px 10px;
+}
 
 /* ===============END_block2=============== */
 

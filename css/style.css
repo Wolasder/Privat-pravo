@@ -367,11 +367,48 @@ a button {
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 32px;
-	padding: ;
+	padding: 40px 0px 10px 0px;
 }
-.block6_content .coll_content {
+.block6_content .call_content {
 	display: grid;
 	grid-template-columns: 50% 50%;
 }
+.block6_content .callback h3 {
+	line-height: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: 500;
+	font-size: 18px;
+}
+.block6_content .callback input {
+	padding: 10px;
+	width: 300px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	height: 55px;
+}
+.block6_content .callback button {
+	height: 55px;
+	padding: 10px;
+	width: 300px;
+	border-radius: 10px;
+	background-color: rgb(204, 0, 0);
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	border-bottom: 5px solid rgb(153, 0, 0);
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.block6_content .callback p {
+	color: white;
+}
+.block6_content .phone h2 {
 
+}
+.block6_content .phone p {
+
+}
 /*===============END_block6=============== */

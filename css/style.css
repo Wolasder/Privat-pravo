@@ -127,7 +127,7 @@ a button {
 
 /* ===============block2=============== */
 #block2 {
-	background-color: #e0f7f6;
+	background-color: #cff0dd;
 	padding-bottom: 40px;
 }
 .block2_top_h1 {
@@ -266,7 +266,7 @@ a button {
 
 /* ===============block4=============== */
 #block4 {
-	background-color: #e0f7f6;
+	background-color: #cff0dd;
 	padding-bottom: 40px;
 }
 .block4_content h1 {
@@ -333,10 +333,10 @@ a button {
 	width: 200px;
 	height: 250px;
 }
-.block5_content .Mihail {
+/* .block5_content .Mihail {
 	width: 300px;
 	height: 300px;
-}
+} */
 .block5_content .content_specialist img {
 	width: 250px;
 	height: 250px;
@@ -425,3 +425,39 @@ a button {
 	line-height: 1.5;
 }
 /*===============END_block6=============== */
+
+/*===============block7=============== */
+.block7_content h1 {
+	font-size: 32px;
+	font-weight: bold;
+	color: #063546;
+	padding: 40px 0px 10px 0px;
+	text-transform: uppercase;
+}
+.block7_content .row {
+	border-bottom: 2px solid;
+	display: grid;
+	grid-template-columns: 4fr 1fr;
+	font-size: 22px;
+	padding: 20px;
+}
+.block7_content .row p {
+	text-align:left;
+	line-height: 1.4;
+	text-indent: 30px;
+}
+.block7_content .row h2 {
+	text-align:right;
+	line-height: 1.4;
+}
+.block7_content .nech {
+	background-color: #cff0dd;
+}
+.block7_content h3 {
+	font-size: 32px;
+	font-weight: bold;
+	color: #063546;
+	padding: 40px 0px 20px 0px;
+	text-transform: uppercase;
+}
+/*===============END_block7=============== */

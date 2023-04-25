@@ -545,13 +545,15 @@ a button {
 	display: grid;
 	grid-template-columns: 15% 85%;
 	padding: 0 10px 0 10px;
+	margin-top: 20px;
+	text-align: left;
 }
 .block10_content h1 {
 	color: white;
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 32px;
-	padding: 40px 0 40px 0;
+	padding: 40px 0 30px 0;
 }
 .block10_content h2 {
 	color: #e04444;
@@ -559,25 +561,53 @@ a button {
 	font-weight: bold;
 	font-size: 22px;
 	padding: 10px 0 10px 0;
-	text-align: left;
 	line-height: 1.1;
 }
 .block10_content p {
 	color: white;
 	font-size: 16px;
 	padding: 0px 0 10px 0;
-	text-align: left;
 	line-height: 1.4;
 }
-
-
-
-
-
 /*===============END_block10=============== */
 
 
 /*===============block11=============== */
+#block11 {
+	background-color: #cff0dd;
+	padding-bottom: 80px;
+}
+.block11_content .block11_tabl {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.block11_content .text {
+	display: grid;
+	grid-template-columns: 15% 85%;
+	padding: 0 10px 0 10px;
+	margin-top: 20px;
+	text-align: left;
+}
+.block11_content h1 {
+	color:#063546;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 32px;
+	padding: 40px 0 30px 0;
+}
+.block11_content h2 {
+	color:#287424;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 22px;
+	padding: 10px 0 10px 0;
+	line-height: 1.1;
+}
+.block11_content p {
+	font-size: 16px;
+	padding: 0px 0 10px 0;
+	line-height: 1.4;
+}
 
 /*===============END_block11=============== */
 

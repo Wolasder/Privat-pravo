@@ -533,6 +533,46 @@ a button {
 
 
 /*===============block10=============== */
+#block10 {
+	background-color: #063546;
+	padding-bottom: 80px;
+}
+.block10_Text {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.block10_content .text {
+	display: grid;
+	grid-template-columns: 15% 85%;
+	padding: 0 10px 0 10px;
+}
+.block10_content h1 {
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 32px;
+	padding: 40px 0 40px 0;
+}
+.block10_content h2 {
+	color: #e04444;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 22px;
+	padding: 10px 0 10px 0;
+	text-align: left;
+	line-height: 1.1;
+}
+.block10_content p {
+	color: white;
+	font-size: 16px;
+	padding: 0px 0 10px 0;
+	text-align: left;
+	line-height: 1.4;
+}
+
+
+
+
 
 /*===============END_block10=============== */
 

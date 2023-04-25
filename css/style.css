@@ -504,33 +504,54 @@ a button {
 	margin-left: 60%;
 	margin-top: 5px;
 }
-
-
-
-
-
 /*===============END_block8=============== */
 
 
 /*===============block9=============== */
+#block9 {
+	background-color: #35b06a;
+	padding-bottom: 80px;
+}
+.block9_content h1 {
+	color: #063546;
+	font-size: 32px;
+	padding: 40px 0px 20px 0px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.block9_content .tel {
+	padding-top: 20px;
+}
+.block9_content a {
+	text-decoration: none;
+	font-size: 35px;
+	color: #fff;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
 /*===============END_block9=============== */
 
 
 /*===============block10=============== */
+
 /*===============END_block10=============== */
 
 
 /*===============block11=============== */
+
 /*===============END_block11=============== */
 
 
 /*===============block12=============== */
+
 /*===============END_block12=============== */
 
 
 /*===============block13=============== */
+
 /*===============END_block13=============== */
 
 
 /*===============footer=============== */
+
 /*===============END_footer=============== */

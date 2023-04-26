@@ -664,8 +664,8 @@ a button {
 	text-align: center;
 }
 .block13_content .adres {
-	background-color: #e0f7f6;
-	padding: 20px;	
+	background-color: #cff0dd;
+	padding: 20px;
 }
 .block13_content p {
 	font-size: 20px;
@@ -692,12 +692,12 @@ a button {
 	text-transform: uppercase;
 }
 .block13_content .mail {
-	background-color: #e0f7f6;
-	padding: 20px;
+	background-color:#cff0dd;
+	padding: 20px 20px 50px 20px;
 }
 #block13 iframe {
 	width: 100%;
-	height: 525px;
+	height: 530px;
 }
 
 /*===============END_block13=============== */

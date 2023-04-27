@@ -16,24 +16,25 @@ a button {
     height: 120px;
     padding: 10px;
 }
-.header_box {
+.header_content {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	align-items: center;
 	background-color: #fff;
 }
-.logo p {
+.header_content .logo p {
 	line-height: 1.4;
+	margin-top: -10px;
 }
-.header_box .phone {
+.header_content .phone {
 	font-size: 20px;
-	line-height: 1.5;
+	line-height: 1.4;
 	padding-top: 20px;
 }
-.header_box .logo {
+.header_content .logo {
 	font-size: 12px;
 }
-.header_box .collback {
+.header_content .collback {
 	background-color: #37A534;
 	border-top: none;
 	border-right: none;
@@ -55,17 +56,16 @@ a button {
 	background-color: #37A534;
 	height: 55px;
 }
-.amenu {
+.main_menu .amenu {
 	border-left: 2px solid #fff;
 }
-.menu li {
+.main_menu .menu li {
 	display: inline-block;
 	border-right: 2px solid #fff;
 	padding: 10px 30px 10px 30px;
-	height: 100%;
 	line-height: 35px;
 }
-.menu a {
+.main_menu .menu a {
 	color: #fff;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -75,7 +75,9 @@ a button {
 
 
 /* ===============block1=============== */
-#block1 {background: url('../img/mainback.jpg') no-repeat center / cover;}
+#block1 {
+	background: url('../img/mainback.jpg') no-repeat center / cover;
+}
 .block1_content {
 	padding-left: 50%;
 	text-align: right;
@@ -94,13 +96,13 @@ a button {
 	text-transform: uppercase;
 	font-size: 48px;
 	margin-top: 20px;
-	text-decoration: underline;
 }
-/* .hrred {
+.hrred {
 	height: 4px;
 	background-color: rgb(204, 0, 0);
 	width: 400px;
-} */
+	margin-left: auto;
+}
 .block1_content p {
 	color: white;
 	font-weight: bold;
@@ -133,7 +135,7 @@ a button {
 	background-color: #cff0dd;
 	padding-bottom: 40px;
 }
-.block2_top_h1 {
+.block2_content .block2_top_h1 {
 	font-weight: bold;
 	font-size: 32px;
 	color: #063546;
@@ -141,7 +143,7 @@ a button {
 	padding-top: 40px;
 	padding-bottom: 10px;
 }
-.block2_button button {
+.block2_content .block2_button button {
 	background-color: #37A534;
 	padding: 5px 10px;
 	border-top: none;
@@ -155,17 +157,17 @@ a button {
 	margin: 5px;
 	font-size: 14px;
 }
-.block2_button {
+.block2_content .block2_button {
 	margin-top: 40px;
 	margin-bottom: 20px;
 }
-.block2_promo_famili {
+.block2_content .block2_promo_family {
 	background-color: #063546;
 	padding: 10px;
 	padding-bottom: 20px;
 	border-radius: 10px;
 }
-.block2_promo_famili h1 {
+.block2_content .block2_promo_family h1 {
 	text-transform: uppercase;
 	font-size: 32px;
 	color: #fff;
@@ -173,18 +175,18 @@ a button {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
-.block2_promo_contetnt {
+.block2_content .block2_promo_contetnt {
 	display: grid;
 	grid-template-columns: 50% 50%;
 }
-.block2_promo_famili .photo {
+.block2_content .block2_promo_family .photo {
 	padding: 10px 15px 0px 15px;
 }
-.block2_promo_famili img {
+.block2_content .block2_promo_family img {
 	max-width: 100%;
 	border-radius: 10px;
 }
-.block2_text {
+.block2_content .block2_text {
 	padding: 10px 15px 0px 15px;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -193,13 +195,13 @@ a button {
 	padding-left: 55px;
 	font-size: 14px;
 }
-.block2_text ul {
+.block2_content .block2_text ul {
 	padding-bottom: 10px;
 }
-.block2_text li {
+.block2_content .block2_text li {
 	padding-top: 15px;
 }
-.block2_text button {
+.block2_content .block2_text button {
 	background-color: #37A534;
 	font-size: 14px;
 	color: #fff;
@@ -225,14 +227,14 @@ a button {
 	padding-top: 40px;
 	padding-bottom: 10px;
 }
-.block3_mail {
+.block3_content .block3_mail {
 	margin-top: 40px;
 	padding: 50px;
 	border: 4px solid #063546;
 	border-radius: 10px;
 	margin-bottom: 40px;
 }
-.block3_mail input {
+.block3_content .block3_mail input {
 	padding: 10px;
 	border-radius: 10px;
 	width: 300px;
@@ -242,7 +244,7 @@ a button {
 	margin-right: 14px;
 	font-size: 14px;
 }
-.block3_mail input#textarea {
+.block3_content .block3_mail input#textarea {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	padding: 40px;
@@ -285,7 +287,7 @@ a button {
 	display: grid;
 	grid-template-columns: 25% 25% 25% 25%;
 }
-.service_content p {
+.block4_content .service_content p {
 	padding-top: 20px;
 	padding-bottom: 10px;
 	text-transform: uppercase;
@@ -305,7 +307,7 @@ a button {
 	color: #063546;
 	padding: 40px 0px 10px 0px;
 }
-.lawyers {
+.block5_content .lawyers {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 }
@@ -488,7 +490,7 @@ a button {
 	font-size: 22px;
 	text-transform: uppercase;
 	color: white;
-	line-height: 1.42857143;
+	line-height: 1.4;
 }
 .block8_content .citation {
 	margin-top: 22px;
@@ -538,7 +540,7 @@ a button {
 	background-color: #063546;
 	padding-bottom: 80px;
 }
-.block10_Text {
+.block10_content .block10_Text {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
@@ -684,7 +686,7 @@ a button {
 	background-color: #35b06a;
 	padding: 20px;
 }
-.block13_content a {
+.block13_content .phone a {
 	text-decoration: none;
 	font-size: 35px;
 	color: #fff;
@@ -704,5 +706,65 @@ a button {
 
 
 /*===============footer=============== */
-
+footer {
+	background-color: #35b06a;
+}
+.footer_content {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	padding-bottom: 40px;
+}
+.footer_content .logo {
+	margin-top: 40px;
+}
+.footer_content .logo p{
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: -10px;
+}
+.footer_content h5 {
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.footer_content a {
+	font-size: 12px;
+	text-align: left;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+}
+.footer_content ul {
+	padding: 0 0 10px 40px;
+	line-height: 1.4;
+	list-style-type: disc;
+	text-align: left;
+}
+.footer_content .contact h3 {
+	font-size: 24px;
+	padding: 20px 0 10px 0;
+	margin-top: -10px;
+}
+.footer_content .contact a {
+	text-decoration: none;
+	font-size: 24px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.4;
+}
+.footer_content .contact p {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	line-height: 1.4;
+}
+.footer_content .contact {
+	text-align: left;
+}
 /*===============END_footer=============== */

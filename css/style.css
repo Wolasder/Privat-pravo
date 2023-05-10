@@ -15,8 +15,7 @@ a button {
 
 /* ===============HEADER=============== */
 #header {
-    height: 120px;
-    padding: 10px;
+	padding: 5px;
 }
 .header_content {
 	display: grid;
@@ -26,7 +25,7 @@ a button {
 }
 .header_content .logo p {
 	line-height: 1.4;
-	margin-top: -10px;
+	margin-top: -20px;
 }
 .header_content .phone {
 	font-size: 20px;
@@ -72,7 +71,7 @@ a button {
 	font-weight: bold;
 	text-transform: uppercase;
 	text-decoration: none;
-	font-size: 16px;
+	font-size: 14px;
 }
 /* ===============END_MENU=============== */
 
@@ -138,7 +137,7 @@ a button {
 	background-color: #cff0dd;
 	padding-bottom: 40px;
 }
-.block2_content .block2_top_h1 {
+.block2_content h1 {
 	font-weight: bold;
 	font-size: 32px;
 	color: #063546;
@@ -195,7 +194,6 @@ a button {
 	text-transform: uppercase;
 	color: #fff;
 	text-align: left;
-	padding-left: 55px;
 	font-size: 14px;
 }
 .block2_content .block2_text ul {
@@ -230,14 +228,14 @@ a button {
 	padding-top: 40px;
 	padding-bottom: 10px;
 }
-.block3_content .block3_mail {
-	margin-top: 40px;
+.block3_content .block3_input {
+	margin: 40px 0 40px 0;
 	padding: 40px;
 	border: 4px solid #063546;
 	border-radius: 10px;
-	margin-bottom: 40px;
+
 }
-.block3_content .block3_mail input {
+.block3_content .block3_input input {
 	padding: 10px;
 	border-radius: 10px;
 	width: 300px;
@@ -247,7 +245,7 @@ a button {
 	margin-right: 14px;
 	font-size: 14px;
 }
-.block3_content .block3_mail input#textarea {
+.block3_content .block3_input input#textarea {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	padding: 40px;
@@ -775,13 +773,172 @@ footer {
 
 
 /*===============MEDIA===================*/
-@media (max-width: 1366px) {
-	/* HEADER */
+@media (max-width : 1200px) {
+	.container {
+		width: 970px;
+	}
+
+
+	/*========== HEADER ==========*/
+	.header_content .logo p {
+		font-size: 10px;
+	}
+	.header_content .phone p {
+		font-size: 16px;
+	}
+
+
+	/*========== main_menu ==========*/
+	.menu_content .menu a {
+		font-size: 12px;
+	}
+
+
+	/*========== block1 ==========*/
+	.block1_content h1 {
+		font-size: 40px;
+	}
+	.block1_content h2 {
+		font-size: 40px;
+	}
+	.hrred {
+		width: 330px;
+	}
+	.block1_content p {
+		font-size: 20px;
+	}
+	.block1_content .consult{
+		padding: 6px;
+		width: 300px;
+	}
+
+
+	/*========== block2 ==========*/
+	.block2_content .block2_button button {
+		font-size: 12px;
+	}
+	.block2_content .block2_text button {
+		font-size: 12px;
+		padding: 6px;
+	}
+	.block2_content .block2_promo_family .photo {
+		text-align: right;
+	}
+	.block2_content .block2_promo_family img {
+		max-width: 80%;
+	}
+	.block2_content .block2_text {
+		text-align: left;
+		font-size: 12px;
+	}
+
+
+	/*========== block3 ==========*/
+	.block3_content .block3_input input {
+		padding: 10px;
+		width: 235px;
+		height: 20px;
+		margin-left: 14px;
+		margin-right: 14px;
+		font-size: 14px;
+	}
+	.block3_content .block3_input input#textarea {
+		width: 80%;
+	}
+	.block3_content button {
+		padding: 6px;
+	}
+
+
+	/*========== block4 ==========*/
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width : 992px) {
+	.container {
+		width: 750px;
+	}
+	.block12_content .docs {
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	}
+	.block5_content .content_specialist img {
+		width: 200px;
+		height: 200px;
+	}
+}
+@media (max-width : 768px) {
+	.container {
+		width: 600px;
+	}
+	.block1_content {
+		padding-left: 0%;
+		text-align: center;
+	}
+	.hrred {
+		height: 4px;
+		background-color: rgb(204, 0, 0);
+		width: 400px;
+		margin-left: 16%;
+	}
+	.block5_content .content_specialist img {
+		width: 100px;
+		height: 100px;
+	}
+	.block12_content .docs {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+}
+
+@media (max-width : 480px) {
+	.container {
+		width: 470px;
+	}
+}
+
+@media (max-width : 320px) {
+	.container {
+		width: 310px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (max-width: 1366px) {
+	HEADER
 	.header_content .logo p {
 		font-size: 11px;
 	}
 
-	/* MENU */
+	MENU
 	.menu_content .menu a {
 		font-size: 14px;
 	}
@@ -791,16 +948,16 @@ footer {
 		padding: 8px 25px 8px 25px;
 		line-height: 25px;
 	}
-}
+} */
 
 
 
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
 	.header_content .logo p {
 		font-size: 10px;
 	}
 	.menu_content ul {
 		font-size: 7px;
 	}
-}
+} */

@@ -775,12 +775,12 @@ footer {
 
 
 /*===============MEDIA===================*/
+/*=======================================*/
+/*=======================================*/
 @media (max-width : 1200px) {
 	.container {
-		width: 970px;
+		width: 993px;
 	}
-
-
 	/*========== HEADER ==========*/
 	.header_content .logo p {
 		font-size: 10px;
@@ -788,14 +788,10 @@ footer {
 	.header_content .phone p {
 		font-size: 16px;
 	}
-
-
 	/*========== main_menu ==========*/
 	.menu_content .menu a {
 		font-size: 12px;
 	}
-
-
 	/*========== block1 ==========*/
 	.block1_content h1 {
 		font-size: 40px;
@@ -813,8 +809,6 @@ footer {
 		padding: 6px;
 		width: 300px;
 	}
-
-
 	/*========== block2 ==========*/
 	.block2_content .block2_button button {
 		font-size: 12px;
@@ -833,8 +827,6 @@ footer {
 		text-align: left;
 		font-size: 12px;
 	}
-
-
 	/*========== block3 ==========*/
 	.block3_content .block3_input input {
 		padding: 10px;
@@ -850,8 +842,6 @@ footer {
 	.block3_content button {
 		padding: 6px;
 	}
-
-
 	/*========== block4 ==========*/
 	.block4_content .service {
 		margin: 0 100px 0 100px;
@@ -862,8 +852,6 @@ footer {
 	.block4_content .service_content p {
 		font-size: 14px;
 	}
-
-
 	/*========== block5 ==========*/
 	.block5_content .lawyers {
 		margin: 0 80px 0 80px;
@@ -886,10 +874,6 @@ footer {
 	.block5_content hr {
 		margin: 0 0 0 0;
 	}
-	
-
-
-
 	/*========== block6 ==========*/
 	.block6_content .call_content {
 		padding-left: 10%;
@@ -914,9 +898,6 @@ footer {
 	.block6_content .phone a {
 		font-size: 20px;
 	}
-
-
-
 	/*========== block7 ==========*/
 	.block7_content .row {
 		border-bottom: 2px solid;
@@ -931,9 +912,6 @@ footer {
 	.block7_content .row h2 {
 		font-size: 16px;
 	}
-
-
-
 	/*========== block8 ==========*/
 	#block8 {
 		padding-bottom: 40px;
@@ -941,17 +919,10 @@ footer {
 	.block8_content h1 {
 		padding-top: 40px;
 	}
-
-
-
 	/*========== block9 ==========*/
 	#block9 {
 		padding-bottom: 40px;
 	}
-
-
-
-
 	/*========== block10 ==========*/
 	#block10 {
 		padding-bottom: 20px;
@@ -966,9 +937,6 @@ footer {
 		width: 70%;
 		padding-top: 10px;
 	}
-
-
-
 	/*========== block11 ==========*/
 	#block11 {
 		padding-bottom: 20px;
@@ -983,9 +951,6 @@ footer {
 		width: 70%;
 		padding-top: 10px;
 	}
-
-
-
 	/*========== block12 ==========*/
 	.block512_content hr {
 		margin: 0 0 0 0;
@@ -993,9 +958,6 @@ footer {
 	#block12 {
 		padding-bottom: 20px;
 	}
-
-
-
 	/*========== block13 ==========*/
 	.block13_content h1 {
 		padding-top: 10px;
@@ -1006,9 +968,6 @@ footer {
 	.block13_content .phone a {
 		font-size: 25px;
 	}
-
-
-
 	/*========== footer ==========*/
 	.footer_content .logo p {
 		font-size: 14px;
@@ -1031,26 +990,30 @@ footer {
 
 
 
-
-
-
-
-
 @media (max-width : 992px) {
 	.container {
-		width: 750px;
-	}
-	.block12_content .docs {
-		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	}
+		width: 769px; 
+	}	
 	.block5_content .content_specialist img {
 		width: 200px;
 		height: 200px;
 	}
+	.block12_content .docs {
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	}
+
 }
+
+
+
+
+
+
+
+
 @media (max-width : 768px) {
 	.container {
-		width: 600px;
+		width: 577px;
 	}
 	.block1_content {
 		padding-left: 0%;
@@ -1072,13 +1035,21 @@ footer {
 
 }
 
-@media (max-width : 480px) {
+
+
+
+
+@media (max-width : 576px) {
 	.container {
-		width: 470px;
+		width: 481px;
 	}
 }
 
-@media (max-width : 320px) {
+
+
+
+
+@media (max-width : 480px) {
 	.container {
 		width: 310px;
 	}
@@ -1088,42 +1059,3 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
-
-/* @media (max-width: 1366px) {
-	HEADER
-	.header_content .logo p {
-		font-size: 11px;
-	}
-
-	MENU
-	.menu_content .menu a {
-		font-size: 14px;
-	}
-	.menu_content .menu li {
-		display: inline-block;
-		border-right: 2px solid #fff;
-		padding: 8px 25px 8px 25px;
-		line-height: 25px;
-	}
-} */
-
-
-
-
-/* @media (max-width: 1024px) {
-	.header_content .logo p {
-		font-size: 10px;
-	}
-	.menu_content ul {
-		font-size: 7px;
-	}
-} */

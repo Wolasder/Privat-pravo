@@ -6,7 +6,6 @@
     margin-right: auto;
     margin-left: auto;
 	width: 1170px;
-	/* width: 100%; */
 }
 
 a button {
@@ -992,8 +991,12 @@ footer {
 
 @media (max-width : 992px) {
 	.container {
-		width: 769px; 
-	}	
+		width: 769px;
+	}
+	.menu_content .menu li {
+		padding: 5px 10px 5px 10px;
+	}
+
 	.block5_content .content_specialist img {
 		width: 200px;
 		height: 200px;

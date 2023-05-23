@@ -82,6 +82,7 @@ a button {
 .block1_content {
 	padding-left: 50%;
 	text-align: right;
+	padding-right: 15px;
 }
 .block1_content h1 {
 	color: white;
@@ -165,6 +166,7 @@ a button {
 .block2_content .block2_promo_family {
 	background-color: #063546;
 	padding: 10px;
+	margin: 0 10px 0 10px;
 	padding-bottom: 20px;
 	border-radius: 10px;
 }
@@ -228,11 +230,10 @@ a button {
 	padding-bottom: 10px;
 }
 .block3_content .block3_input {
-	margin: 40px 0 40px 0;
+	margin: 40px 10px 40px 10px;
 	padding: 40px;
 	border: 4px solid #063546;
 	border-radius: 10px;
-
 }
 .block3_content .block3_input input {
 	padding: 10px;
@@ -240,8 +241,7 @@ a button {
 	width: 300px;
 	height: 20px;
 	text-align: center;
-	margin-left: 14px;
-	margin-right: 14px;
+	margin: 10px;
 	font-size: 14px;
 }
 .block3_content .block3_input input#textarea {
@@ -319,11 +319,10 @@ a button {
 	padding: 10px 0 10px 0px;
 }
 .block5_content p {
-	font-size: 14px;
 	line-height: 20px;
 	font-size: 14px;
 	margin-top: 10px;
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 .block5_content hr {
 	margin-top: 20px;
@@ -382,8 +381,7 @@ a button {
 }
 .block6_content .callback h3 {
 	line-height: 30px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin: 10px;
 	font-weight: 500;
 	font-size: 18px;
 }
@@ -420,8 +418,7 @@ a button {
 .block6_content .phone h2 {
 	color: black;
 	font-size: 28px;
-	margin-top: 60px;
-	margin-bottom: 10px;
+	margin: 60px 10px 10px 10px;
 	font-weight: bold;
 	line-height: 1.1;
 }
@@ -495,7 +492,7 @@ a button {
 	line-height: 1.4;
 }
 .block8_content .citation {
-	margin-top: 22px;
+	margin: 22px 10px 10px 10px;
 	list-style-type: none;
 }
 .block8_content .citation_all{
@@ -828,12 +825,7 @@ footer {
 	}
 	/*========== block3 ==========*/
 	.block3_content .block3_input input {
-		padding: 10px;
-		width: 235px;
-		height: 20px;
-		margin-left: 14px;
-		margin-right: 14px;
-		font-size: 14px;
+		width: 224px;
 	}
 	.block3_content .block3_input input#textarea {
 		width: 80%;
@@ -853,7 +845,7 @@ footer {
 	}
 	/*========== block5 ==========*/
 	.block5_content .lawyers {
-		margin: 0 80px 0 80px;
+		margin: 0 40px 0 40px;
 	}
 	.block5_content .specialist h1 {
 		line-height: 1.2;
@@ -993,16 +985,45 @@ footer {
 	.container {
 		width: 769px;
 	}
+	/*========== MENU ==========*/
 	.menu_content .menu li {
 		padding: 5px 10px 5px 10px;
 	}
-
-	.block5_content .content_specialist img {
-		width: 200px;
-		height: 200px;
+	/*========== block3 ==========*/
+	.block3_content .block3_input input {
+		width: 300px;
+		margin: 10px 14px 10px 14px;
 	}
+	/*========== block5 ==========*/
+	.block5_content .lawyers img {
+		width: 150px;
+		height: 190px;
+	}
+	.block5_content h2 {
+		font-size: 14px;
+	}
+	.block5_content p {
+		font-size: 12px;
+	}
+	.block5_content .content_specialist img {
+		width: 150px;
+		height: 150px;
+	}
+	/*========== block6 ==========*/
+	.block6_content .callback h3 {
+		line-height: 30px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		font-weight: 500;
+		font-size: 18px;
+	}
+	/*========== block12 ==========*/
 	.block12_content .docs {
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	}
+	.block12_content img {
+		width: 100px;
+		height: 100px;
 	}
 
 }
@@ -1018,20 +1039,37 @@ footer {
 	.container {
 		width: 577px;
 	}
+	.header_content {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+	.header_content .logo {
+		grid-column: span 2;
+	}
+
+	
+
+
 	.block1_content {
 		padding-left: 0%;
 		text-align: center;
 	}
+
+
 	.hrred {
 		height: 4px;
 		background-color: rgb(204, 0, 0);
 		width: 400px;
 		margin-left: 16%;
 	}
+
+
 	.block5_content .content_specialist img {
 		width: 100px;
 		height: 100px;
 	}
+
+
 	.block12_content .docs {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
@@ -1046,7 +1084,14 @@ footer {
 	.container {
 		width: 481px;
 	}
+
+
+
+
 }
+
+
+
 
 
 

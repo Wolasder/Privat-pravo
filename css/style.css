@@ -249,7 +249,7 @@ a button {
 .block3_content .block3_input input#textarea {
 	margin-top: 20px;
 	margin-bottom: 20px;
-	padding: 40px;
+	padding: 10px;
 	border-radius: 10px;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -388,16 +388,12 @@ a button {
 	font-size: 18px;
 }
 .block6_content input {
-	width: 280px;
+	width: 268px;
 	height: 35px;
 	border-radius: 10px;
 	margin-bottom: 20px;
-
-	padding: 10px;
+	padding: 0 16px;
 	font-size: 18px;
-}
-.block6_content .placeholder {
-	padding: 10px;
 }
 .block6_content button {
 	height: 55px;
@@ -659,7 +655,7 @@ a button {
 
 
 /*===============block13=============== */
-.kart {
+.block13_content .kart {
 	position: absolute;
 }
 .block13_content h1 {
@@ -686,7 +682,6 @@ a button {
 	padding: 10px 0 10px 0;
 }
 .block13_content .phone {
-	padding-top: 20px;
 	line-height: 1.4;
 	background-color: #35b06a;
 	padding: 20px;
@@ -702,7 +697,7 @@ a button {
 	background-color:#cff0dd;
 	padding: 20px 20px 50px 20px;
 }
-#block13 iframe {
+.block13_content iframe {
 	width: 100%;
 	height: 530px;
 }
@@ -1061,8 +1056,7 @@ footer {
 		height: 35px;
 	}	
 	.header_content .partners {
-		margin-left: 10px;
-		margin-right: auto;	
+		margin-left: 0px;
 	}
 	.header_content .phone p {
 		font-size: 12px;
@@ -1090,9 +1084,11 @@ footer {
 	}
 	.block1_content h1 {
 		font-size: 24px;
+		padding-top: 20px;
 	}
 	.block1_content h2 {
 		font-size: 24px;
+		margin-top: 0px;
 	}
 	.hrred {
 		height: 4px;
@@ -1106,7 +1102,7 @@ footer {
 		padding: 10px;
 		width: auto;
 		font-size: 10px;
-		border-bottom: 2px solid #287424;
+		margin-bottom: 20px;
 	}
 	/*========== block2 ==========*/
 	.block2_content {
@@ -1114,6 +1110,7 @@ footer {
 	}
 	.block2_content h1 {
 		font-size: 24px;
+		padding-top: 20px;
 	}
 	.block2_content .block2_button {
 		margin-top: 10px;
@@ -1137,17 +1134,19 @@ footer {
 	/*========== block3 ==========*/
 	.block3_content h1 {
 		font-size: 24px;
+		padding-top: 20px;
 	}
 	.block3_content .block3_input {
 		margin: 10px;
 		padding: 0px;
 	}
 	.block3_content .block3_input input {
-		width: 90%;
+		width: 80%;
 		height: 15px;
 	}
 	.block3_content .block3_input input#textarea {
 		width: 80%;
+		height: 50px;
 	}
 	.block3_content button {
 		margin-bottom: 10px;
@@ -1160,6 +1159,7 @@ footer {
 	}
 	.block4_content h1 {
 		font-size: 24px;
+		padding-top: 20px;
 	}
 	#block4 .service {
 		display: grid;
@@ -1168,7 +1168,7 @@ footer {
 	}
 	/*========== block5 ==========*/
 	.block5_content h1{
-		font-size: 24px;
+		font-size: 18px;
 		padding: 10px 0px 10px 0px;
 	}
 	.block5_content .lawyers {
@@ -1213,17 +1213,40 @@ footer {
 		font-size: 24px;
 		padding: 20px 0px 10px 0px;
 	}
+	.block6_content .phone h2 {
+		font-size: 14px;
+		margin: 10px;
+	}
+	.block6_content .phone a {
+		font-size: 16px;
+	}
 	.block6_content .call_content {
     padding-left: 2%;
     padding-right: 2%;
 	}
-	.block6_content .callback input {
-    width: 100%;
-    height: 35px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    padding: 10px;
-    font-size: 18px;
+	.block6_content .callback h3 {
+		line-height: 1.4;
+		margin: 10px;
+		font-size: 14px;
+	}
+	.block6_content input {
+    width: 40%;
+		margin-left: 20%;
+		margin-right: 20%;
+		margin-bottom: 10px;
+		font-size: 12px;
+		padding: 0 0px;
+	}
+	.block6_content button {
+		height: 40px;
+		padding: 0px;
+		width: 40%;
+		margin-left: 20%;
+		margin-right: 20%;
+		font-size: 12px;
+	}
+	.block6_content p {
+		font-size: 12px;
 	}
 	/*========== block7 ==========*/
 	.block7_content h1 {
@@ -1293,23 +1316,73 @@ footer {
 	/*========== block12 ==========*/
 	.block12_content .docs {
 		grid-template-columns: 1fr 1fr 1fr;
+		margin: 0 10%;
+	}
+	.block12_content img {
+		width: 50px;
+		height: 50px;
+
 	}
 	/*========== block13 ==========*/
 	.block13_content h1 {
 		font-size: 24px;
 		padding: 0px 0 10px 0;
 	}
-	#block13 iframe {
+	.block13_content iframe {
 		width: 100%;
-		height: 530px;
+		height: 200px;
+	}	
+	.block13_content .kart{
+		padding-top: 0px;
 	}
+	.block13_content .kart {
+		position: relative;
+	}
+	.block13_content .adres {
+		background-color: #cff0dd;
+		padding: 10px;
+	}
+	.block13_content p {
+		font-size: 14px;
+	}
+	.block13_content h5 {
+		font-size: 14px;
+		padding: 5px 0 5px 0;
+	}
+	.block13_content .phone {
+		padding: 4px;
+	}
+	.block13_content .phone a {
+		font-size: 20px;
+	}
+	.block13_content .mail {
+		padding: 10px;
+	}
+	/*===============footer=============== */
 
-
+	.footer_content {
+		display: grid;
+		grid-template-columns: 1fr;
+		padding-bottom: 40px;
+	}
+	.footer_content .logo {
+		margin-top: 10px;
+	}
+	.footer_content ul {
+		display: none;
+	}
 	.footer_content h5 {
-	content: none;
-
+		display: none;
 	}
-
+	.footer_content h3 {
+		display: none;
+	}
+	.footer_content a {
+		display: none;
+	}
+	.footer_content p {
+		display: none;
+	}
 }
 
 
